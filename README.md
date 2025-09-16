@@ -1,21 +1,19 @@
-# NASA Sample Satellite Dashboard 🚀
 
-This repository is based on NASA’s sample **Satellite Dashboard** project and extends it with **AWS cloud services**.  
-The goal is to explore how open satellite data can be processed, stored, and visualized for research and educational use.  
 
-## 🌍 Goals
-- Experiment with open NASA Earth observation datasets.  
-- Integrate AWS services (S3, Lambda, EC2) for storage and processing.  
-- Build a visualization dashboard for satellite data insights.  
+# NASA Satellite Dashboard (Demo)
 
-## 📂 Project Structure
-- **data/** → Placeholder for datasets.  
-- **scripts/** → Processing scripts (Python, shell, etc.).  
-- **docs/** → Notes, design diagrams, and documentation.  
+This project is my journey into **space data & networking** 🚀  
 
-## 📌 Status
-🛠️ Early draft – project setup done, starting with dataset ingestion and AWS pipeline design.  
+### ✅ Current Features
+- `scripts/fetch_sample_data.py`: Fetches NASA Astronomy Picture of the Day (APOD) metadata using NASA’s public API.
+- Stores JSON output in the `data/` folder.
 
-## 📜 License
-MIT License – free to use, share, and modify.  
+### 📅 Roadmap
+- Add more NASA datasets (Earth observation, satellites).
+- Process and visualize data.
+- Build a simple dashboard for space missions.
 
+---
+
+👩‍💻 Built while learning **AWS + Space Data Networking**  
+🌐 Member of [Interplanetary Networking SIG (IPNSIG)](https://ipnsig.org)

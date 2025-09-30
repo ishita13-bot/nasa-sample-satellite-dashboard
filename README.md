@@ -14,6 +14,21 @@ NASA Astronomy Picture of the Day (APOD):
 
 ![APOD](docs/screenshots/apod.jpg)
 
+## 🚀 ISS Tracker
+
+This project now includes a script that fetches the **real-time position of the International Space Station (ISS)** using the [Open Notify API](http://api.open-notify.org/).
+
+- Data is stored in [`data/iss_positions.csv`](data/iss_positions.csv).
+- Each run of [`scripts/iss_tracker.py`](scripts/iss_tracker.py) appends a new row with timestamp, latitude, and longitude.
+- Example rows:
+
+| fetched_at (UTC)          | timestamp   | latitude | longitude |
+|----------------------------|-------------|----------|-----------|
+| 2025-09-30T12:34:56Z | 1717101234 | 23.45    | 67.89     |
+| 2025-09-30T12:35:12Z | 1717101249 | 23.52    | 68.02     |
+
+Next step: visualize ISS path on a world map 🌍
+
 
 ### 📅 Roadmap
 - Add more NASA datasets (Earth observation, satellites).
